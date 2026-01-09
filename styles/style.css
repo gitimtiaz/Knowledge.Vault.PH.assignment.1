@@ -3,3 +3,40 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common style */
+.container{
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+
+
+/* unique style */
+.navbar{
+    display: flex;
+    height: 92px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 120px 16px 120px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.hero{
+    justify-content: center;
+    text-align: center;
+    background-image: url(../assets/hero-bg.png);
+
+}
+.hero h4{
+    width: 229px;
+    hight: 35px;
+    margin: auto;
+    border-radius: 1000px;
+    background: rgba(255, 255, 255, 1);
+}
