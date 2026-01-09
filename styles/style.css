@@ -335,3 +335,33 @@
     font-size: 16px;
     color: #001931;
 }
+
+.cta{
+    background: #F6F9FC;
+    padding: 120px 0;
+}
+
+.cta-box{
+    text-align: center;
+}
+
+.cta-box h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+}
+
+.cta-box p{
+    margin: 16px auto 32px;
+    max-width: 720px;
+    font-size: 18px;
+    color: #627382;
+}
+
+.cta-box small{
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #627382;
+    
+}
