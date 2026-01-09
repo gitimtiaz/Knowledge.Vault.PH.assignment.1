@@ -72,6 +72,7 @@
     display: flex;
     width: 229px;
     height: 35px;
+    gap : 8px;
     color: #30B868;
     font-size: 16px;
     font-weight: 500;
@@ -81,6 +82,15 @@
     border-radius: 1000px;
     background: #FFFFFF;
 }
+.circle{
+    width: 6px;
+    height: 6px;
+    background-color: #30B868;
+    border-radius: 50%;
+    box-shadow: 
+    0 0 0 3px rgba(48, 184, 104, 0.4),
+    0 0 0 5px rgba(48, 184, 104, 0.2);}
+
 .hero h1{
     margin-top: 16px;
     font-size: 72px;
@@ -120,6 +130,10 @@
     height: 52px;
     padding: 12px 16px 12px 16px;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 8px;
     font-size: 16px; 
     font-weight: 600;
     border-radius: 4px;
@@ -132,6 +146,10 @@
     height: 52px;
     padding: 12px 16px 12px 16px;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
     font-size: 16px; 
     font-weight: 600;
     /* border-sizing: border-box; */
@@ -139,4 +157,18 @@
     border-radius: 4px;
     cursor: pointer;
     background: transparent;
+}
+.second{
+    /* margin-top: ; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.box-4{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
