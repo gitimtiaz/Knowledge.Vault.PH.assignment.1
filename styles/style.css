@@ -278,3 +278,60 @@
     letter-spacing: 0%;
     color: #627382;
 }
+
+.solution{
+    padding: 120px 0;
+}
+
+.solution-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.solution-img img{
+    width: 100%;
+    max-width: 520px;
+}
+
+.solution-text {
+    max-width: 560px;
+}
+
+.sec-green{
+    font-size: 14px;
+    font-weight: 600;
+    color: #30B868;
+    letter-spacing: 1px;
+}
+
+.solution-text h2{
+    margin: 16px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #001931;
+}
+
+.solution-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.solution-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.solution-list li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    color: #001931;
+}
